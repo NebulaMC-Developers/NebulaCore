@@ -1,5 +1,5 @@
 package com.nebulamc.core.util;
 
-public enum PendingChangeType {
+public enum ChangeType {
 	ADD, REMOVE, EDIT
 }

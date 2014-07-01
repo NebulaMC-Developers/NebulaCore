@@ -1,7 +1,7 @@
 package com.nebulamc.core.util;
 
 
-public class PendingChangeQueue extends BasicQueue<PendingChange> {
+public class ChangeQueue extends BasicQueue<Change> {
 
 	/**
 	 * 
