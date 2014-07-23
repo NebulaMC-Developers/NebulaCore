@@ -1,7 +1,7 @@
 name: NebulaCore
-main: com.nebulamc.core.NebulaCore
+main: com.rivieramc.core.NebulaCore
 version: 0.1
 description: Core plugin for NebulaMC.
-loadbefore: [NebulaZRun]
+loadbefore: [NebulaZRun, NebulaNav]
 
 commands:

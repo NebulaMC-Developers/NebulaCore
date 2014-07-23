@@ -1,4 +1,6 @@
-package com.nebulamc.core.util;
+package com.rivieramc.core.util;
+
+import org.bukkit.Location;
 
 /**
  * A utility class that is designed to represent a three-dimensional point.
@@ -39,6 +41,16 @@ public class Point {
 		this.z = 0;
 	}
 	
+	/**
+	 * Initializes a new point with the x, y, and z in the Location.
+	 * @param location
+	 */
+	public Point(Location location) {
+		this.x = location.getBlockX();
+		this.y = location.getBlockY();
+		this.z = location.getBlockZ();
+	}
+
 	/**
 	 * Returns the x coordinate of the point.
 	 */
@@ -85,5 +97,21 @@ public class Point {
 	public Point setZ(int newZ) {
 		this.z = newZ;
 		return this;
+	}
+	
+	/**
+	 * Gets a string version of the point in a human friendly form.
+	 */
+	@Override
+	public String toString() {
+		return "(" + x + ".0, " + y + ".0, " + z + ".0)";
+	}
+	
+	/**
+	 * Gives a copy of the point.
+	 * @return The new copy.
+	 */
+	public Point copy() {
+		return new Point(x, y, z);
 	}
 } 

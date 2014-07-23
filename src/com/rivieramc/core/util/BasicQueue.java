@@ -1,4 +1,4 @@
-package com.nebulamc.core.util;
+package com.rivieramc.core.util;
 
 import java.util.ArrayList;
 import java.util.Queue;

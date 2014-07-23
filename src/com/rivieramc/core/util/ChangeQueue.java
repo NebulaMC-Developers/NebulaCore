@@ -1,4 +1,4 @@
-package com.nebulamc.core.util;
+package com.rivieramc.core.util;
 
 
 public class ChangeQueue extends BasicQueue<Change> {

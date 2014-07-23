@@ -1,4 +1,4 @@
-package com.nebulamc.core.flow;
+package com.rivieramc.core.flow;
 
 public interface IFlowComponent {
 
