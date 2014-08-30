@@ -1,4 +1,4 @@
-NebulaCore
+RivieraCore
 ==========
 
-Core plugin for NebulaMC.
+Core plugin for RivieraMC.
